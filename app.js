@@ -15,3 +15,5 @@ app.get("/calcular", (req, res) => {
 });
 
 module.exports = { app, total };
+
+if (require.main === module) app.listen(3000);
